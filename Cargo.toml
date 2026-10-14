@@ -1,0 +1,12 @@
+[package]
+name = "megastore"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+
+[[bench]]
+name = "performance"
+path = "benches/performance.rs"
+harness = false
